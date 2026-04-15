@@ -1,0 +1,77 @@
+/* Linked Fonts, Imported Fonts */
+
+@font-face {
+  font-family: 'Flame';
+  src: url('bk-fonts/Flame-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flame';
+  src: url('bk-fonts/Flame-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+.fredoka{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Dropdown and Header Links */
+
+.db {
+  background-color: #cacaca;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  font-family: "Fredoka";
+  border: none;
+}
+
+.headerDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dbContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  font-family: "Fredoka";
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 5;
+}
+
+.dbContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dbContent a:hover {background-color: white;}
+.headerDropdown:hover .dbContent {display: block;}
+.headerDropdown:hover .db {background-color: white;}
+
+.headerLinks{
+  background-color: #cacaca;
+  padding: 16px;
+  border: none;
+}
+
+.headerLinks a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Fredoka";
+}
+
+.headerLinks:hover{
+  background-color: white;
+}
