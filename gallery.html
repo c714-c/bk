@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whoppers</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="function-style.css">
+    <link rel="icon" type="image/x-icon" href="images/crown.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+        <h1>The Royalty</h1>
+        <p class="headerDisplay">House of the Flame-Grilled.</p>
+        <nav>
+            <div class="headerLinks">
+                <a href="index.html">HOME</a>
+            </div>
+
+            <div class="headerDropdown">
+                <button class="db"><a href="rankings.html">MENU RANKINGS</a></button>
+                <div class="dbContent">
+                    <a href="whopper.html">BURGERS</a>
+                    <a href="chicken.html">CHICKEN / FISH</a>
+                    <a href="otherMenu.html">DESSERT AND SIDES</a>
+                    <a href="ltMenu.html">LIMITED TIME ITEMS</a>
+                </div>
+            </div>
+
+            <div class="headerLinks">
+                <a href="gallery.html"><u>GALLERY</u></a>
+            </div>
+            <div class="headerLinks">
+                <a href="https://bk.com">bk.com</a>
+            </div>
+            <div class="headerLinks">
+                <a href="account.html">FAN ACCOUNT</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <h1>His majesty's food Gallery.</h1>
+            <p>Feast your eyes on delicious history, only fit for royalty.</p>
+            <hr>
+        </div>
+        <div class="lightbox-ext">
+            <div class="row">
+            <div class="column">
+                <img src="img1.jpg" onclick="openModal();currentSlide(1)">
+            </div>
+            <div class="column">
+                <img src="img2.jpg" onclick="openModal();currentSlide(2)">
+            </div>
+            <div class="column">
+                <img src="img3.jpg" onclick="openModal();currentSlide(3)">
+            </div>
+            <div class="column">
+                <img src="img4.jpg" onclick="openModal();currentSlide(4)">
+            </div>
+            </div>
+
+            <div id="lightbox" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="slide">
+                <img src="img1_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="slide">
+                <img src="img2_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="slide">
+                <img src="img3_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="slide">
+                <img src="img4_wide.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="column">
+                <img class="small" src="img1.jpg" onclick="currentSlide(1)" alt="">
+                </div>
+
+                <div class="column">
+                <img class="small" src="img2.jpg" onclick="currentSlide(2)" alt="">
+                </div>
+
+                <div class="column">
+                <img class="small" src="img3.jpg" onclick="currentSlide(3)" alt="">
+                </div>
+
+                <div class="column">
+                <img class="small" src="img4.jpg" onclick="currentSlide(4)" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2026 Burger King, All rights reserved.</p>
+        <p>This site was made with silly intentions.</p>
+        <p class="footerInfo"><i>Burger King Company LLC (TM & Copyright 2026) protects all content, including logos, text, and graphics, under intellectual property laws. Unauthorized use of their trademarks (e.g., WHOPPER®) or copyrighted materials is prohibited. Specific assets like the "Flame" typeface are restricted, and unsolicited ideas become their property upon submission.</i></p>
+    </footer>
+  </body>
+</html>

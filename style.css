@@ -1,5 +1,10 @@
 *{
-    margin: 0
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a:hover, .db:hover{
+    cursor: url("images/spatula.png"), auto;
 }
 
 header{
@@ -115,20 +120,47 @@ footer{
 
 .accountForm{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
     padding: 0 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-form{
+.leftForm{
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 23px;
+}
+
+.rightForm{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 23px;
+}
+
+.rightForm textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 23px;
     border: 2px solid;
     box-shadow: 15px 15px black;
-    width: 500px;
+    width: 1300px;
 }
 
 form input, form button{
@@ -143,6 +175,14 @@ form button{
     font-size: 16px;
 }
 
+form button:hover{
+    background-color: rgb(0, 171, 0);
+}
+
+form button:active{
+    background-color: darkslategray;
+}
+
 form input{
     line-height: 200%;
 }
@@ -154,4 +194,51 @@ form li{font-size: 1.1em;}
 .msg{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 25px;
+}
+
+.descRank{
+    padding: 35px;
+    background-color: #f1f1f1;
+}
+
+.descRank hr{
+    margin: 15px 0;
+}
+
+li{
+    margin-top: 4px;
+}
+
+.allItems{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}   
+
+.allItems a{
+    line-height: 2em;
+    color: rgb(10, 0, 155);
+}
+
+.allItems p{
+    margin: 5px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+.intro hr{
+    width: 90%;
+}
+
+.lightbox-ext{
+    background-color: mediumslateblue;
+    margin: 30px;
+    padding: 10px;
 }

@@ -1,0 +1,43 @@
+{
+    "burgers": [
+        {
+            "name":"Whopper",
+            "rating":"★★★★★",
+            "say":"waa·pr",
+            "desc":"Burger King's signature hamburger, introduced in 1957, featuring a 4 oz (110 g) flame-grilled beef patty, mayonnaise, lettuce, tomato, pickles, ketchup, and sliced onions on a toasted sesame seed bun.",
+            "img":"images/whopper1.png",
+            "review":"The first creation of the Saucefather and an all time classic. Legend says that he defeated Master Ronald with this in the First Great Burger War.",
+            "class":"whopper"
+        }
+        ,
+        {
+            "name":"Double Whopper",
+            "rating":"★★★★★",
+            "say":"duh·bul waa·pr",
+            "desc":"The Double Whopper is designed for those who want more meat from the original Whopper without changing the classic flavor profile. Features 2 flame-grilled beef patties and the same fresh toppings.",
+            "img":"images/double.png",
+            "review":"The Double Whopper is the elder brother of the Whopper. Said to have fought fiercely against Biggus Mac, the leader of the MacDonalds, in the Second Great Burger War.",
+            "class":"double"
+        }
+        ,
+        {
+            "name":"Triple Whopper",
+            "rating":"★★★★★",
+            "say":"trih·puhl waa·pr",
+            "desc":"The Triple Whopper is designed for those who want even more meat from the original Whopper. 3 delicious flame-grilled beef patties and the usual fresh toppings.",
+            "img":"images/triple.png",
+            "review":"The Triple Whopper- originally thought to be only a myth- is the strongest of the original Whopper bloodline. It single-handedly struck down the third of the Wendy's triplets, \"Dave's Triple\", in the Third Great Burger War.",
+            "class":"triple"
+        }
+        ,
+        {
+            "name":"Whopper Jr.",
+            "rating":"★★★★⯪",
+            "say":"waa·pr juhn·yer",
+            "desc":"The Whopper Jr. is a smaller version of the original Whopper, designed for those who want the classic flavor in a more compact size. It features a smaller flame-grilled beef patty, but the same fresh toppings.",
+            "img":"images/jr.png",
+            "review":"The Whopper Jr. is the younger sibling of the Whopper, often underestimated but still packing a punch. It played a crucial role in the Third Great Burger War, where it outsmarted the MacDonald hamburger troops in a battle of wits and flavor.",
+            "class":"jr"
+        }
+    ]
+}

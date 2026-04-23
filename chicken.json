@@ -1,0 +1,12 @@
+{
+    "chicken":[
+        {
+            "name":"Original Chicken Sandwich",
+            "rating":"★★★★★",
+            "say":"uh·rij·uh·nuhl chik·uhn sand·wich",
+            "desc":"The Original Chicken Sandwich is a classic menu item that features a breaded chicken fillet, served on a long bun with mayonnaise and lettuce. It has been a staple of Burger King's menu for decades and is known for its tender chicken and savory flavor.",
+            "img":"images/ocs.png",
+            "review":"The Original Chicken Sandwich (OCS) is the original chicken sandwich that started it all. The Saucefather was looking to expand his kingdom, and had found that fried chicken in sandwich form was an excellent combination. OCS led the BK Nugget Batallion to battle in had succesfully held back the McNugget forces, resulting in a stalemate."
+        }
+    ]
+}

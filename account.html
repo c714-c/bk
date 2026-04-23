@@ -21,17 +21,17 @@
             </div>
 
             <div class="headerDropdown">
-                <button class="db">MENU RANKINGS</button>
+                <button class="db"><a href="rankings.html">MENU RANKINGS</a></button>
                 <div class="dbContent">
-                    <a href="#">BURGERS</a>
-                    <a href="#">CHICKEN / FISH</a>
-                    <a href="#">DESSERT AND SIDES</a>
-                    <a href="#">LIMITED TIME ITEMS</a>
+                    <a href="whopper.html">BURGERS</a>
+                    <a href="chicken.html">CHICKEN / FISH</a>
+                    <a href="otherMenu.html">DESSERT AND SIDES</a>
+                    <a href="ltMenu.html">LIMITED TIME ITEMS</a>
                 </div>
             </div>
 
             <div class="headerLinks">
-                <a href="#">LOCATIONS</a>
+                <a href="gallery.html">GALLERY</a>
             </div>
             <div class="headerLinks">
                 <a href="https://bk.com">bk.com</a>
@@ -54,21 +54,38 @@
         </div>
         <div class="accountForm">
             <form>
-                <h3>Account Creation Form</h3>
-                <li>Name:</li>
-                <input type="text" id="name" name="name" required placeholder="Enter your first and last name">
-                <li>Username:</li>
-                <input type="text" id="user" name="user" required placeholder="Enter a username">
-                <li>Email:</li>
-                <input type="email" id="email" name="email" required placeholder="Enter your email">
-                <li>Password:</li>
-                <input type="password" id="password" name="password" required placeholder="Enter a secure password">
-                <button type="submit">Create Account</button>
-                <h6>&#9432; &nbsp; Your account may take up to 72 hours to be processed and approved after submitting the form.</h6>
+                <div class="leftForm">
+                    <h3>Account Creation Form</h3>
+                    <li>Name:</li>
+                    <input type="text" required placeholder="Enter your first and last name">
+                    <li>Username:</li>
+                    <input type="text" required placeholder="Enter a username">
+                    <li>Email:</li>
+                    <input type="email" required placeholder="Enter your email">
+                    <li>Password:</li>
+                    <input type="password" id="password" name="password" required placeholder="Enter a secure password">
+                    <button type="submit">Create Account</button>
+                    <h5>&#9432; &nbsp; Your account may take up to 72 hours to be processed and approved after submitting the form.</h5>
+                </div>
+                <div class="rightForm">
+                    <p><br></p>
+                    <span class="emailButton">
+                        <input type="radio" name="emails">
+                        <label for="emails">I want to receive emails about new menu items, promotions, and events. (Optional)</label>
+                    </span>
+                    <textarea placeholder="Tell us about your favorite Burger King menu item and why you love it!" rows="10" cols="50"></textarea>
+                </div>
             </form>
         </div>
         <div class="short-spacer"></div>
     </main>
+
+    <style>
+        .emailButton{
+            display: flex;
+            align-items: center;
+        }
+    </style>
 
     <footer>
         <p>Copyright &copy; 2026 Burger King, All rights reserved.</p>
