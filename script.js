@@ -2,9 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const mainContainer = document.querySelector("main");
     const path = window.location.pathname;
 
-        // I hate JS <3
-        // Shoutout to Gemini for helping me
-
     let category = "";
     if (path.includes("whopper.html")) category = "burgers";
     else if (path.includes("chicken.html")) category = "chicken";
@@ -89,3 +86,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+

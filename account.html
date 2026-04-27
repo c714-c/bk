@@ -72,6 +72,8 @@
                     <span class="emailButton">
                         <input type="radio" name="emails">
                         <label for="emails">I want to receive emails about new menu items, promotions, and events. (Optional)</label>
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I'm not a spy for McDonald's</label>
                     </span>
                     <textarea placeholder="Tell us about your favorite Burger King menu item and why you love it!" rows="10" cols="50"></textarea>
                 </div>
@@ -83,7 +85,8 @@
     <style>
         .emailButton{
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            padding-right: 60px;
         }
     </style>
 

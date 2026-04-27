@@ -237,3 +237,20 @@
 .small:hover {
   opacity: 1;
 }
+
+
+/* CAPTCHA */
+.problem{
+  display: flex;
+  flex-direction: row;
+}
+
+.cap{
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black
+}
+
+#msg{
+  color: red
+}

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Rankings</title>
+    <title>CAPTCHA Check</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="function-style.css">
-    <link rel="icon" type="image/x-icon" href="images/crown.png">
+    <link rel="icon" type="image/x-icon" href="images/gear-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
@@ -17,52 +17,46 @@
         <p class="headerDisplay">House of the Flame-Grilled.</p>
         <nav>
             <div class="headerLinks">
-                <a href="index.html">HOME</a>
+                <a href="#">HOME</a>
             </div>
 
             <div class="headerDropdown">
-                <button class="db"><a href="rankings.html"><u>MENU RANKINGS</u></a></button>
+                <button class="db"><a href="#">MENU RANKINGS</a></button>
                 <div class="dbContent">
-                    <a href="whopper.html">BURGERS</a>
-                    <a href="chicken.html">CHICKEN / FISH</a>
-                    <a href="otherMenu.html">DESSERT AND SIDES</a>
-                    <a href="ltMenu.html">LIMITED TIME ITEMS</a>
+                    <a href="#">BURGERS</a>
+                    <a href="#">CHICKEN / FISH</a>
+                    <a href="#">DESSERT AND SIDES</a>
+                    <a href="#">LIMITED TIME ITEMS</a>
                 </div>
             </div>
 
             <div class="headerLinks">
-                <a href="gallery.html">GALLERY</a>
+                <a href="#">GALLERY</a>
             </div>
             <div class="headerLinks">
-                <a href="https://bk.com">bk.com</a>
+                <a href="#">bk.com</a>
             </div>
             <div class="headerLinks">
-                <a href="account.html">FAN ACCOUNT</a>
+                <a href="#">FAN ACCOUNT</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="descRank">
-            <h1>Highest Rated/Ranked Menu Items</h1>
-            <p>Discover the best burgers in the kingdom!</p>
-            <hr>
-            <ol>Current Top Rated Burgers:
-                <li><b>DOUBLE WHOPPER®</b></li>
-                <li><b>WHOPPER®</b></li>
-                <li><b>ORIGINAL CHICKEN SANDWICH</b></li>
-            </ol>
-        </div>
-
-        <div class="allItems">
-            <h2>All Burgers (Rated)</h2>
-            <p>More ratings coming soon.</p>
-            <ul>
-                <li><a href="whopper.html#whopper">WHOPPER®</a></li>
-                <li><a href="whopper.html#double">DOUBLE WHOPPER®</a></li>
-                <li><a href="whopper.html#triple">TRIPLE WHOPPER®</a></li>
-                <li><a href="whopper.html#jr">WHOPPER JR.®</a></li>
-            </ul>
+        <div class="cap">
+            <h1>CAPTCHA Security Check</h1>
+            <h2>Solve the problem to continue.</h2>
+            <br>
+            <div class="problem">
+                <p>What is&nbsp;</p>
+                <p id="n1"></p>
+                <p>&nbsp;&times;&nbsp;</p>
+                <p id="n2"></p>
+                <p>?</p>
+            </div>
+            <input id="answer" type="number">
+            <input type="submit" onclick="enter()">
+            <p id="msg"></p>
         </div>
     </main>
 
@@ -71,5 +65,6 @@
         <p>This site was made with silly intentions.</p>
         <p class="footerInfo"><i>Burger King Company LLC (TM & Copyright 2026) protects all content, including logos, text, and graphics, under intellectual property laws. Unauthorized use of their trademarks (e.g., WHOPPER®) or copyrighted materials is prohibited. Specific assets like the "Flame" typeface are restricted, and unsolicited ideas become their property upon submission.</i></p>
     </footer>
+    <script src="captcha.js"></script>
   </body>
 </html>
