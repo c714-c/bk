@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Whoppers</title>
+    <title>Gallery</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="function-style.css">
-    <link rel="icon" type="image/x-icon" href="images/crown.png">
+    <link rel="icon" type="image/x-icon" href="images/image.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@
         <div class="lightbox-ext">
             <div class="row">
             <div class="column">
-                <img src="img1.jpg" onclick="openModal();currentSlide(1)">
+                <img src="images/service.jpg" onclick="openModal();currentSlide(1)">
             </div>
             <div class="column">
                 <img src="img2.jpg" onclick="openModal();currentSlide(2)">
@@ -69,39 +69,34 @@
             <div class="modal-content">
 
                 <div class="slide">
-                <img src="img1_wide.jpg" style="width:100%">
+                    <img src="images/service.jpg" style="width:100%">
+                    <div class="caption">The Legendary service BK employees offer.</div>
                 </div>
 
                 <div class="slide">
-                <img src="img2_wide.jpg" style="width:100%">
+                    <img src="img2_wide.jpg" style="width:100%">
+                    <div class="caption">Image 2</div>
                 </div>
 
                 <div class="slide">
-                <img src="img3_wide.jpg" style="width:100%">
+                    <img src="img3_wide.jpg" style="width:100%">
+                    <div class="caption">Image 3</div>
                 </div>
 
                 <div class="slide">
-                <img src="img4_wide.jpg" style="width:100%">
+                    <img src="img4_wide.jpg" style="width:100%">
+                    <div class="caption">Image 4</div>  
                 </div>
 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
 
-                <div class="column">
-                <img class="small" src="img1.jpg" onclick="currentSlide(1)" alt="">
-                </div>
-
-                <div class="column">
+            <div class="modal-thumbnails">
+                <img class="small" src="images/service.jpg" onclick="currentSlide(1)" alt="">
                 <img class="small" src="img2.jpg" onclick="currentSlide(2)" alt="">
-                </div>
-
-                <div class="column">
                 <img class="small" src="img3.jpg" onclick="currentSlide(3)" alt="">
-                </div>
-
-                <div class="column">
                 <img class="small" src="img4.jpg" onclick="currentSlide(4)" alt="">
-                </div>
             </div>
             </div>
         </div>

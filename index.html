@@ -34,7 +34,7 @@
                 <a href="gallery.html">GALLERY</a>
             </div>
             <div class="headerLinks">
-                <a href="https://bk.com">bk.com</a>
+                    <a href="https://bk.com">bk.com</a>
             </div>
             <div class="headerLinks">
                 <a href="account.html">FAN ACCOUNT</a>
@@ -69,10 +69,43 @@
         }
     </style>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const popUp = document.getElementById("cookiePopup");
+            const acceptBtn = document.getElementById("acceptCookie");
+            const denyBtn = document.getElementById("denyCookie")
+
+            if (!localStorage.getItem("cookieAccepted")) {
+                popUp.style.display = "flex";
+            }
+
+            acceptBtn.addEventListener("click", () => {
+                localStorage.setItem("cookieAccepted", "true");
+                popUp.style.display = "none";
+            });
+
+            if (!localStorage.getItem("denyAccepted")) {
+                popUp.style.display = "flex";
+            }
+
+            denyBtn.addEventListener("click", () => {
+                localStorage.setItem("cookieAccepted", "true");
+                popUp.style.display = "none";
+            });
+        });
+    </script>
+
     <footer>
         <p>Copyright &copy; 2026 Burger King, All rights reserved.</p>
         <p>This site was made with silly intentions.</p>
         <p class="footerInfo"><i>Burger King Company LLC (TM & Copyright 2026) protects all content, including logos, text, and graphics, under intellectual property laws. Unauthorized use of their trademarks (e.g., WHOPPER®) or copyrighted materials is prohibited. Specific assets like the "Flame" typeface are restricted, and unsolicited ideas become their property upon submission.</i></p>
     </footer>
+
+    <div id="cookiePopup" class="cookie-banner" style="display: none;">
+        <h3>This website uses cookies to ensure you get the best experience.&nbsp; </h3>
+        <button id="acceptCookie">Accept</button>
+        <button id="denyCookie">Reject Optional</button>
+    </div>
+
   </body>
 </html>

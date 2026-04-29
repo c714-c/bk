@@ -16,6 +16,8 @@ function enter() {
         document.getElementById("msg").innerHTML = "Try again, robot!";
         generateProblem();
     } else {
+        mc = document.getElementById("msg")
+        mc.style.color = "darkgreen"
         document.getElementById("msg").innerHTML = "Verified Human, redirecting...";
         setTimeout(() => {
             window.location.href = "index.html";

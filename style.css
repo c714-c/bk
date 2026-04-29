@@ -3,9 +3,32 @@
     scroll-behavior: smooth;
 }
 
-a:hover, .db:hover{
+a:hover{
     cursor: url("images/spatula.png"), auto;
 }
+
+@keyframes popIn{
+  0% {
+    opacity: .2;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 header{
     display: flex;
