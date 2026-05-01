@@ -1,0 +1,13 @@
+{
+    "limited":[
+        {
+            "name":"The Angry Whopper",
+            "rating":"★★★★★",
+            "say":"flay·meeng waa·pr",
+            "desc":"The Angry Whopper. The Whopper on flames. It awaits you. Savor the spice.",
+            "img":"images/flaming.png",
+            "review":"&lt;REDACTED&gt; nuclear site.",
+            "class":"angry"
+        }
+    ]
+}

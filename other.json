@@ -1,0 +1,13 @@
+{
+    "desserts":[
+        {
+            "name":"Oreo Fusion Sundae",
+            "rating":"★★★★★",
+            "say":"oh·reeo fue·zhihn suhn·daye",
+            "desc":"",
+            "img":"images/oreo.png",
+            "review":"&lt;REDACTED&gt; explosive diarrhea.",
+            "class":"oreo"
+        }
+    ]
+}
