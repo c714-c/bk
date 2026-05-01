@@ -149,6 +149,13 @@
   padding: 0 8px;
 }
 
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -163,6 +170,7 @@
 .column img{
   width: 200px;
   transition: opacity 0.2s ease-in-out;
+  max-height: 150px;
 }
 
 .column img:hover {

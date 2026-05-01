@@ -4,9 +4,40 @@
             "name":"Original Chicken Sandwich",
             "rating":"★★★★★",
             "say":"uh·rij·uh·nuhl chik·uhn sand·wich",
-            "desc":"The Original Chicken Sandwich is a classic menu item that features a breaded chicken fillet, served on a long bun with mayonnaise and lettuce. It has been a staple of Burger King's menu for decades and is known for its tender chicken and savory flavor.",
+            "desc":"The Original Chicken Sandwich is a classic menu item that features a breaded chicken fillet, served on a long sesame seed bun with mayonnaise and lettuce. It has been a staple of Burger King's menu for decades and is known for its tender chicken and savory flavor.",
             "img":"images/ocs.png",
-            "review":"The Original Chicken Sandwich (OCS) is the original chicken sandwich that started it all. The Saucefather was looking to expand his kingdom, and had found that fried chicken in sandwich form was an excellent combination. OCS led the BK Nugget Batallion to battle in had succesfully held back the McNugget forces, resulting in a stalemate."
+            "review":"The Original Chicken Sandwich (OCS) is the original chicken sandwich that started it all. The Saucefather was looking to expand his kingdom, and had found that fried chicken in sandwich form was an excellent combination. OCS led the BK Nugget Batallion to battle in had succesfully held back the McNugget forces, resulting in a stalemate.",
+            "class":"ocs"
+        }
+        ,
+        {
+            "name":"Royal Crispy Chicken Sandwich",
+            "rating":"★★★★☆",
+            "say":"roy·uhl cris·pee chik·uhn sand·wich",
+            "desc":"The Royal Chicken Sandwich is another classic chicken item that features a crispier breaded chicken fillet, served on round buns with fresh veggies and signature sauce. The difference between this one and the Original Chicken Sandwich is the crispiness it has to offer, shape of meat, and overall flavor profile. Features a SPICY version.",
+            "img":"images/royalCrispy.png",
+            "review":"The reason why this was created is &lt;REDACTED&gt;, in a lab. Throughout the kingdom, there have been mixed reviews of this item, and concerns over whether this menu item should be replaced. The little combat this item saw in the 3rd Great Burger War was a victory, but many debate whether this is true or not.",
+            "class":"royal"
+        }
+        ,
+        {
+            "name":"Chicken Fries",
+            "rating":"★★★★★",
+            "say":"chik·uhn frye·zs",
+            "desc":"Chicken Fries. French Fries: elevated. For those who love the form factor of fries, but love a good crispy chicken nugget.",
+            "img":"images/chkFries.png",
+            "review":"Chicken Fries were originally thought to have been a war crime when first used in the 2nd Great Burger War, since they viciously took out the MacDonald fries while also beating their iconic chicken nuggets. Nowadays, Chicken Fries live a peaceful life being the greatest french fry innovation to exist.",
+            "class":"chknFries"
+        }
+        ,
+        {
+            "name":"Chicken Nuggets",
+            "rating":"★★★★☆",
+            "say":"chik·uhn nuh·gihts",
+            "desc":"BK Chicken Nuggets are a classic hit. With every bite, you savor the tender meat and crispy breading, along with the sauce of your choice. Every child's favorite fast food item. Great for those who wish to eat little or those who want a flavorfully delightful side.",
+            "img":"images/nuggs.png",
+            "review":"The <i>\"Chicken Nuggets\"</i> project of the Saucefather's army was almost a complete disaster when compared to the legendary Mac of Donald's nuggets. While they had no victory in battle, they're part of the reason the King won the war.",
+            "class":"nuggets"
         }
     ]
 }
